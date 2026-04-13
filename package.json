@@ -1,0 +1,39 @@
+{
+  "name": "@csgaglobal/ai-economy-infra",
+  "version": "1.0.0",
+  "description": "AI economy infrastructure governance for AI marketplace platforms, model-as-a-service compliance, and AI economic impact assessment.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "ai-economy-infra-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "LICENSE"
+  ],
+  "license": "CC0-1.0",
+  "type": "module",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.1",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  },
+  "author": "CSGA Global",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/csga-global/mcp-servers",
+    "directory": "packages/ai-economy-infra"
+  },
+  "keywords": [
+    "mcp",
+    "ai-economy",
+    "ai-governance",
+    "marketplace",
+    "infrastructure"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
